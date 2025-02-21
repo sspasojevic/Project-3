@@ -17,7 +17,9 @@ objects to the center of the frame (based on their centroids). The program uses 
 camera (continuity feature) for real-time video feed.
 
 The program has two training (labeling) modes:
+
 • **Normal training mode** - allows users to label all 3 objects in the frame.
+
 • **Automatic training mode** - allows labeling of only the unknown object in the
 frame.
 
