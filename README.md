@@ -2,14 +2,28 @@
 
 **Sara Spasojevic**
 
-# Group Members
+# Description
 
-Individual submission
+The goal of this project is real-time 2D object recognition. Given a white surface as a
+background, and objects placed on top of it, with the camera positioned above, the program
+detects objects and does classification to assign labels to them. It does this by performing a
+series of steps - thresholding, morphological filtering, and segmenting. First three are implemented 
+from scratch, and segmenting uses OpenCV's functions. The regions are then
+analyzed to compute a feature vector for each, and based on those, they are classified with
+either known labels or a unique unknown label. The program can perform either nearest
+neighbor (NN) or k-NN (k-nearest neighbors) classification, and this is specified when
+running the program in the terminal. In addition, the program is limited to recognizing only 3 closest
+objects to the center of the frame (based on their centroids). The program uses the iPhone’s back
+camera (continuity feature) for real-time video feed.
+
+The program has two training (labeling) modes:
+• **Normal training mode** - allows users to label all 3 objects in the frame.
+• **Automatic training mode** - allows labeling of only the unknown object in the
+frame.
 
 # Project Information:
 
 **Class**: CS 5330 - Computer Vision, Spring 2025
-**Project**: Project 3
 **Date**: Feb 20, 2025
 
 # Operating system and IDE
