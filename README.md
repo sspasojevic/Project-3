@@ -7,9 +7,9 @@
 The goal of this project is real-time 2D object recognition. Given a white surface as a
 background, and objects placed on top of it, with the camera positioned above, the program
 detects objects and does classification to assign labels to them. It does this by performing a
-series of steps - thresholding, morphological filtering, and segmenting. First three are implemented 
-from scratch, and segmenting uses OpenCV's functions. The regions are then
-analyzed to compute a feature vector for each, and based on those, they are classified with
+series of steps - thresholding, morphological filtering, and segmenting. All of the steps are 
+implemented from scratchs. The regions are then analyzed to compute a feature vector 
+for each (using OpenCV's functions), and based on those, they are classified with
 either known labels or a unique unknown label. The program can perform either nearest
 neighbor (NN) or k-NN (k-nearest neighbors) classification, and this is specified when
 running the program in the terminal. In addition, the program is limited to recognizing only 3 closest
