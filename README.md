@@ -1,6 +1,6 @@
-# Name
+# Project
 
-**Sara Spasojevic**
+**Real-time 2-D Object Recognition**
 
 # Description
 
